@@ -1,0 +1,29 @@
+<html>
+<body body background="images/marriage.jpg">
+<marquee behavior="alternate" direction="right" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()">
+<p><font size="8" color="gold"><b>Welcome to Marriage Application</b></font></p></marquee>
+<br>
+<p align="center"><font size="4" color="DARKBLUE"><b>-:Enter your details:-</b></font></p>
+
+<form action="http://localhost:2030/MarriageApp/marriageurl" method="GET">
+	<table align="center">
+		<tr> <td><font color="gold"><b>Person Name</b></font></td>
+			<td><input type="text" name="pname"></td>
+		</tr>
+		<tr> <td><font color="gold"><b>Person Age</b></font></td>
+			<td><input type="text" name="page"></td>
+		</tr>
+		<tr> <td><font color="gold"><b>Person Gender</b></font></td>
+			<td><input type="radio" name="gender" value="M">Male &nbsp;&nbsp;
+				<input type="radio" name="gender" value="F">Female &nbsp;&nbsp;
+				<input type="radio" name="gender" value="O" checked>Other &nbsp;&nbsp;
+			</td>
+			</tr>
+			<tr>
+			<td><input type="submit" value="CHECK ELIGIBILITY"></td>
+			<td><input type="reset" value="RESET"></td>
+			</tr>
+	</table>
+</form>
+</body>
+</html>
