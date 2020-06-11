@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="images/registration.jpg">
+<h1 style="color:DARKBLUE;text-align:center">REGISTRATION FORM</h1><br>
+<p align="center"><b>-: ENTER YOUR DETAILS:-</b><br>
+</p><br>
+<form name="frm" action="registerurl" method="POST">
+<table align="center">
+<tr><td><font size="4" color="DARKBLUE">Enter your name * :</font></td>
+	<td><input type="text" name="pname" required></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Enter your age * :</font></td>
+	<td><input type="password" name="age" required></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Enter your address * :</font></td>
+	<td><textarea name="addrs" rows="5" cols="20" required></textarea></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Select your Gender * :</font></td>
+	<td><input type="radio" name="gender" value="M">Male &nbsp;
+		<input type="radio" name="gender" value="F">Female &nbsp;
+		<input type="radio" name="gender" value="O" checked>Other</td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Enter your Phone Number * :</font></td>
+	<td><input type="tel" name="phone" required></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Marital Status :</font></td>
+	<td><input type="radio" name="marry" value="MA">Married &nbsp;
+	<input type="radio" name="marry" value="UM" checked>Un-married &nbsp;</td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Qualification * :</font></td>
+	<td><select name="qlfy" required>
+		<option value="">--select an option--</option>
+		<option value="engineer">B-Tech/B.E</option>
+		<option value="medical">MBBS</option>
+		<option value="science">B-Sc/M-Sc</option>
+		<option value="commerce">B-Comm/M-Comm</option>
+		<option value="arts">BA/MA</option>
+	</select></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Courses :</font></td>
+	<td><select name="crs" multiple>
+		<option value="java">JAVA PKG</option>
+		<option value="ui">UI TECH</option>
+		<option value="python">PYTHON PKG</option>
+		<option value="ds">DATA SCIENCE</option>
+		<option value="robo">ROBOTICS</option>
+	</select></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Hobbies :</font></td>
+	<td><input type="checkbox" name="hobby" value="play">Playing
+	<input type="checkbox" name="hobby" value="swim">Swimming
+	<input type="checkbox" name="hobby" value="read">Reading Newspaper
+	<input type="checkbox" name="hobby" value="watch">Watching TV</td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Facebook url :</font></td>
+	<td><input type="url" name="fb"></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Date Of Birth * :</font></td>
+	<td><input type="date" name="dob" required></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">email id * :</font></td>
+	<td><input type="email" name="mail" required></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Favourite color :</font></td>
+	<td><input type="color" name="col"></td>
+</tr>
+<tr><td><font size="4" color="DARKBLUE">Expected Salary range :</font></td>
+	<td><input type="range" name="sal" min="10000" max="100000"></td>
+</tr>
+<tr><td colspan="2" align="center"><input type="submit" value="REGISTER">
+									<input type="reset" value="CLEAR"></td>
+</tr>
+</table>
+</form>
+<br><marquee behavior="alternate" direction="right" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()">
+<p><b>'*' Fields are mandatory to fill</b></p></marquee>
+
+</body>
+</html>
